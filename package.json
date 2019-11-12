@@ -1,0 +1,23 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "Weather -- Current and Forecast",
+  "main": "index.js",
+  "bin": {
+    "weather": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Stephen Trewick github.com/step818",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chalk": "^3.0.0",
+    "cli-table3": "^0.5.1",
+    "conf": "^6.2.0",
+    "esm": "^3.2.25",
+    "minimist": "^1.2.0"
+  }
+}
