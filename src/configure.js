@@ -18,7 +18,7 @@ export async function configure(args) {
 
   let cityId = args.city || args.cityId || args.cityID || args['city-id'] || args.c;
   if (!cityId) {
-    cityId = currentConfigObject.cityId || 4862034;
+    cityId = currentConfigObject.cityId || 5809844;
     cityId = Number(cityId);
   }
   if (!validateCityId(cityId)) {
@@ -27,7 +27,7 @@ export async function configure(args) {
 
   let units = args.units || args.unit || args.u;
   if (!units) {
-    units = currentConfigObject.units || 'Kelvin';
+    units = currentConfigObject.units || 'Fahrenheit';
   }
   if (!validateUnits) {
     return;
